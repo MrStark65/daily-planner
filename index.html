@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Daily Planner</h1>
+            <p id="current-date" class="date-display"></p>
+        </header>
+
+        <main>
+            <form id="task-form" class="task-form">
+                <div class="form-group">
+                    <input 
+                        type="text" 
+                        id="task-description" 
+                        placeholder="Enter task description"
+                        aria-label="Task description"
+                        autocomplete="off"
+                    >
+                    <input 
+                        type="time" 
+                        id="task-time" 
+                        aria-label="Task time (optional)"
+                    >
+                    <button type="submit" class="btn-add">Add Task</button>
+                </div>
+                <div id="validation-message" class="validation-message" role="alert"></div>
+            </form>
+
+            <div id="task-list-container">
+                <div id="empty-state" class="empty-state">
+                    <p>No tasks yet. Add your first task to get started!</p>
+                </div>
+                <ul id="task-list" class="task-list"></ul>
+            </div>
+        </main>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
