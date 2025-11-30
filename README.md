@@ -92,7 +92,7 @@ MIT License - feel free to use this project for personal or commercial purposes.
 
 ## Author
 
-Your Name - [Your GitHub Profile](https://github.com/MrStark65)
+Your Name - [Lakshay_Singh](https://github.com/MrStark65)
 
 ## Acknowledgments
 
